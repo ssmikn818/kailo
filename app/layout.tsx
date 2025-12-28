@@ -17,13 +17,14 @@ export const metadata: Metadata = {
   description: "남의 목표가 아닌 진짜 내 삶을 설계하는 시간, KaiLo",
   keywords: ["KaiLo", "질문", "자기계발", "만다라트", "2026", "목표설정", "AI 프롬프트"],
   authors: [{ name: "KaiLo" }],
-  icons: {
-    icon: [
-      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png' },
-    ],
-    shortcut: '/images/KaiLo_로고_원_무배경.png',
-    apple: '/images/KaiLo_로고_원_무배경.png',
-  },
+  // Icons temporarily disabled - using favicon.ico instead
+  // icons: {
+  //   icon: [
+  //     { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png' },
+  //   ],
+  //   shortcut: '/images/KaiLo_로고_원_무배경.png',
+  //   apple: '/images/KaiLo_로고_원_무배경.png',
+  // },
   openGraph: {
     title: "2026년 계획, 또 복사 붙여넣기 하고 계신가요?",
     description: "남의 목표가 아닌 진짜 내 삶을 설계하는 시간, KaiLo",
