@@ -1,3 +1,23 @@
+import Script from "next/script";
+
+// Google Analytics
+<Script
+  src={`https://www.googletagmanager.com/gtag/js?id=G-H4CN7EJBJ4`}
+  strategy="afterInteractive"
+/>
+<Script
+  id="google-analytics"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-H4CN7EJBJ4');
+    `,
+  }}
+/>
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
