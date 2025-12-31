@@ -799,7 +799,7 @@ export default function Home() {
           <a href="/" className="inline-block">
             <div className="relative w-32 h-10 md:w-40 md:h-12">
               <Image
-                src="/images/KaiLo_로고_텍스트_가로_무배경.png"
+                src="/images/KaiLo_로고_원_무배경.png"
                 alt="KAILO"
                 fill
                 className="object-contain"
