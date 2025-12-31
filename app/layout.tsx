@@ -13,16 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "질문으로 나를 세우다, KaiLo | KaiLo",
+  title: "질문으로 나를 세우다, KaiLo",
   description: "남의 목표가 아닌 진짜 내 삶을 설계하는 시간, KaiLo",
   keywords: ["KaiLo", "질문", "자기계발", "만다라트", "2026", "목표설정", "AI 프롬프트"],
   authors: [{ name: "KaiLo" }],
   icons: {
     icon: [
-      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png' },
+      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png', sizes: '32x32' },
+      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png', sizes: '64x64' },
+      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png', sizes: '96x96' },
+      { url: '/images/KaiLo_로고_원_무배경.png', type: 'image/png', sizes: '128x128' },
     ],
     shortcut: '/images/KaiLo_로고_원_무배경.png',
-    apple: '/images/KaiLo_로고_원_무배경.png',
+    apple: [
+      { url: '/images/KaiLo_로고_원_무배경.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   openGraph: {
     title: "질문으로 나를 세우다, KaiLo",

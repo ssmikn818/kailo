@@ -98,7 +98,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 px-4 md:px-6 lg:px-12 py-3 md:py-4 bg-[#f5f1eb]/98 backdrop-blur-md border-b border-[#e8e0d6]/50 shadow-sm">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="/" className="inline-block">
-            <div className="relative w-28 h-8 md:w-32 md:h-10 lg:w-40 lg:h-12">
+            <div className="relative w-40 h-12 md:w-48 md:h-14 lg:w-56 lg:h-16">
               <Image
                 src="/images/KaiLo_로고_텍스트_가로_무배경.png"
                 alt="KAILO"
